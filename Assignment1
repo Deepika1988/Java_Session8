@@ -1,0 +1,22 @@
+//Program to read values of ArrayList using Iterator
+package session8;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Assingment1 {
+
+	public static void main(String[] args) {
+		List <String> l1 = new ArrayList<String>();
+		l1.add("Welcome");
+		l1.add("To");
+		l1.add("Acadgild");
+		
+		Iterator<String> i1 = l1.iterator();
+		while (i1.hasNext())
+		{
+			System.out.println(i1.next());
+		}
+	}
+}
